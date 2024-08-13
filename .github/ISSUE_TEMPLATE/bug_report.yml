@@ -12,6 +12,14 @@ body:
         Thanks for taking the time to fill out this bug report!
   - type: textarea
     attributes:
+      label: Describe the scene
+      description: Briefly describe the business scenario or functional requirements you hope to achieve.
+      placeholder: |
+        Realize PIR and PSI between three institutions, with an expected data volume of up to 50 million...
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
       placeholder: |
